@@ -32,49 +32,123 @@ p{
     --background-color: #FFFFFF;
     --hero-background: #2F303A;
     --line-color: #DADADA;
-  }
-
- h3{ top: calc(50% - 32px/2 - 4px);
-font-family: 'Jost';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 32px;
-color: var(--logo-color)
+    --primary-button-color:#F6623E;
+    --background-color:#F6623E;
+    --main-color:#000000;
+    --second-clor:#1A1A1A;
 }
 line{
     
     background-color: var(--line-color)
 }
-h1{
+...body{
+    font-family: Jost;
     font-style: normal;
-font-weight: 700;
-font-size: 54px;
-line-height: 56px;
-color: var(--logo-color);
+    color: var(--main-color)
 }
-h2{
-font-style: normal;
+
+a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+ul{
+    list-style: none;
+}
+
+.link{
+font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 56px;
+}
+
+.main{
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
-color: var(--logo-color);
 }
-h4{
-font-weight: 600;
-font-size: 24px;
-line-height: 32px;
-color: var(--logo-color);
+
+.text-1,
+.text-1-1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
 }
-h5{
-font-weight: 500;
+
+.text-1-1{
+    font-weight: 500;
+}
+
+.text-2,
+.no_jost{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.no_jost{
+    font-family: Work Sans;
+    font-weight: 500;
+}
+
+.text-3,
+.text-4{
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+}
+
+.text-4{
+    font-weight: 400;
+}
+
+.name{
+    font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+
+        color: #1A1A1A;
+}
+
+.code{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #1A1A1A;
+        opacity: 0.4
+}
+
+button{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+
+        color: #FFFFFF;
+        background-color: var(--background-color);
+}
+
+.list{
+    background-color: var(--background-color);
+    
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+}
+
+.header-link{
+font-weight: 400;
 font-size: 18px;
 line-height: 24px;
-color:  var(--logo-color);
 }
-p{font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    color:  var(--logo-color);
 
+.header-link:hover,
+.header-link:focus{
+    color: var(--background-color);
 }
